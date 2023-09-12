@@ -10,10 +10,133 @@
     body {
       font-family: 'Sono', sans-serif;
     }
+   
+    .pricing-container {
+      display: flex;
+      height: 100vh;
+      justify-content: center;
+      align-items: center;
+      border: 1px solid black;
+      gap: 30px;
+    
+    }
 
+    .pricing-plan {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      border: 1px solid lightblue;
+      background-color: lightblue;
+      border-radius: 5%;
+      height: 300px;
+      max-width: 400px;
+      
+      
+      
+    }
+    ul {
+      
+      list-style-type: none;
+      text-align: center;
+    }
+    li {
+      margin: 15px;
+    }
+    
+    .plan-title, .plan-price{
+      font-weight: bold;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      
+    }
+
+    .plan-title {
+      font-weight: bold;
+      font-size: xx-large;
+    }
+    .plan-price {
+      font-size: xxx-large;
+    }
+
+    .plan-button
+    {
+      border-radius: 10%;
+      background-color: orangered;
+      border: 10px solid orangered;
+      color: white;
+      margin-bottom: 10px;
+    }
+    
+    
     /* Hint: What can you do with a media query and flexbox? */
     @media (max-width: 1250px) {
+      body {
+      font-family: 'Sono', sans-serif;
+    }
+   
+    .pricing-container {
+      display: flex;
+      flex-direction: column;
+      height: 1250px;
+      justify-content: center;
+      align-items: center;
+      border: 1px solid black;
+      gap: 30px;
+    
+    }
+
+    .pricing-plan {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      border: 1px solid lightblue;
+      background-color: lightblue;
+      border-radius: 5%;
+      height: 300px;
+      width: 400px;
       
+      
+      
+    }
+    ul {
+      
+      list-style-type: none;
+      text-align: center;
+    }
+    li {
+      margin: 15px;
+    }
+    
+    .plan-title, .plan-price{
+      display: flex;
+      font-weight: bold;
+      justify-content: center;
+      align-items: center;
+      
+    }
+
+    .plan-title {
+      margin-top: 20px;
+      font-size: xx-large;
+      
+    }
+    .plan-price {
+      font-size: xxx-large;
+    }
+
+
+    .plan-button
+    {
+      border-radius: 10%;
+      background-color: orangered;
+      border: 10px solid orangered;
+      color: white;
+      margin-bottom: 30px;
+    }
+    
     }
   </style>
 </head>
